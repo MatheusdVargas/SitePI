@@ -1,6 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
 body {
   background-color: #0a001b;
   color: #fff;
@@ -29,38 +26,18 @@ a {
   color: white;
   text-decoration: none;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.bemvindo {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  display: flex;
-  margin-top: 2%;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .navegacao ul {
   list-style: none;
   position: absolute;
   left: 0;
   display: flex;
 }
-
 .navegacao li {
   margin-right: 50px;
 }
-
 .imagem {
   position: relative;
 }
-
 .perfil ul {
   list-style: none;
   position: absolute;
@@ -68,20 +45,27 @@ a {
   top: 0;
   display: flex;
 }
-
-.sobre {
+.titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  display: flex;
+  margin-top: 4%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.conteudo {
   background-color: #fff;
   width: 100vw;
   margin: 0;
   margin-top: 3%;
-  border-top-left-radius: 75%;
-  border-top-right-radius: 75%;
+  border-top-left-radius: 35%;
+  border-top-right-radius: 35%;
   padding: 40px 20px;
   box-sizing: border-box;
-  text-align: center; /* Centraliza o conteúdo dentro da div */
+  text-align: center;
 }
-
-.sobre h2 {
+.conteudo h2 {
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -89,11 +73,11 @@ a {
   margin-top: 0;
 }
 
-.sobre p {
+.conteudo p {
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-
+  font-size: 24px;
   max-width: 800px;
   margin: 20px auto; 
 }
