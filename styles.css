@@ -78,7 +78,7 @@ a {
   border-top-right-radius: 75%;
   padding: 40px 20px;
   box-sizing: border-box;
-  text-align: center; /* Centraliza o conteúdo dentro da div */
+  text-align: center; 
 }
 
 .sobre h2 {
@@ -96,4 +96,5 @@ a {
 
   max-width: 800px;
   margin: 20px auto; 
+  margin-bottom: 3%;
 }
