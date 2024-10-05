@@ -56,17 +56,26 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
-.conteudo {
-  background-color: #fff;
-  width: 98vw;
-  margin: 0;
-  margin-top: 3%;
-  border-top-left-radius: 35%;
-  border-top-right-radius: 35%;
-  padding: 40px 20px;
-  box-sizing: border-box;
-  text-align: center;
-}
+.branco {
+    background-color: #fff;
+    width: 98vw;
+    margin: 0;
+    margin-top: 3%;
+    border-top-left-radius: 65%;
+    border-top-right-radius: 65%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .conteudo {
+    background-color: #fff;
+    width: 98vw;
+    margin: 0;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
 .conteudo h2 {
   color: #0a001b;
   font-family: "Roboto", sans-serif;
@@ -85,4 +94,5 @@ a {
 .conteudo ul li a {
   color: black;
   font-size: 26px;
+  list-style: none;
 }

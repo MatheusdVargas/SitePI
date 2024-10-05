@@ -1,3 +1,7 @@
+/* Eu tentei deixar todo o site responsivo pro pessoal do proximo ano conseguir acessar
+no celular, mas não deu certo */
+/* import da fonte "Roboto"*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 body {
   background-color: #0a001b;
   color: #fff;
