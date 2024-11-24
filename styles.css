@@ -1,7 +1,8 @@
 /* Criar 3 novas paginas | Colocar box nao sei oq | colocar imagens | colocar border 
 | colocar texto gradiente */
 /* import da fonte "Roboto"*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+
 body {
   background-color: #0a001b;
   color: #fff;
@@ -61,8 +62,6 @@ a {
 
 .imagem {
   position: relative;
-  
-  
 }
 
 .perfil ul {
@@ -82,7 +81,7 @@ a {
   border-top-right-radius: 75%;
   padding: 40px 20px;
   box-sizing: border-box;
-  text-align: center; 
+  text-align: center;
 }
 
 .sobre h2 {
@@ -98,17 +97,19 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-  margin: 20px auto; 
+  margin: 20px auto;
   margin-bottom: 1%;
 }
+
 .rodape {
   background-color: #ffff;
   width: 98vw;
   color: #0a001b;
 }
+
 .rodape p {
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-  margin: 20px auto; 
+  margin: 20px auto;
 }

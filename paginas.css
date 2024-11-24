@@ -1,5 +1,5 @@
 /* import da fonte "Roboto"*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 body {
   background-color: #0a001b;
   color: #fff;
@@ -68,10 +68,10 @@ a {
   text-align: center;
 }
 .conteudo {
-    background-color: #fff;
-    width: 98vw;
-    box-sizing: border-box;
-    text-align: center;
+  background-color: #fff;
+  width: 98vw;
+  box-sizing: border-box;
+  text-align: center;
 }
 .conteudo h2 {
   color: #0a001b;
@@ -86,17 +86,17 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 .conteudo ul li a {
   color: black;
   font-size: 26px;
 }
 #paragrafo1 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -127,10 +127,10 @@ a {
   left: 15%;
 }
 #paragrafo3 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -140,21 +140,21 @@ a {
   margin-left: 3%;
 }
 .imagem2 {
-    position: absolute;
-    right: 4%;
+  position: absolute;
+  right: 4%;
 }
 #paragrafo4 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-    text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 #link {
   color: #78c802;
@@ -163,7 +163,6 @@ a {
 #lIdeb {
   color: #000;
   text-decoration: none;
-  
 }
 #fonte {
   margin-right: 0;

@@ -1,5 +1,5 @@
 /* import da fonte "Roboto"*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 body {
   background-color: #0a001b;
   color: #fff;
@@ -68,10 +68,10 @@ a {
   text-align: center;
 }
 .conteudo {
-    background-color: #fff;
-    width: 98vw;
-    box-sizing: border-box;
-    text-align: center;
+  background-color: #fff;
+  width: 98vw;
+  box-sizing: border-box;
+  text-align: center;
 }
 .conteudo h2 {
   color: #0a001b;
@@ -86,17 +86,17 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 .conteudo ul li a {
   color: black;
   font-size: 26px;
 }
 #paragrafo1 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -104,13 +104,11 @@ a {
   max-width: 800px;
   margin-left: 6%;
   line-height: 1.6;
-
 }
 .imagem0 {
   border-radius: 3%;
   position: absolute;
   right: 15%;
-
 }
 #paragrafo2 {
   color: #0a001b;
@@ -127,13 +125,12 @@ a {
 }
 .imagem1 {
   position: absolute;
-
 }
 #paragrafo3 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
@@ -143,23 +140,21 @@ a {
   margin-left: 3%;
 }
 .imagem2 {
-    position: absolute;
-
+  position: absolute;
 }
 #paragrafo4 {
-    border-style: solid;
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    border-radius: 4%;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-    text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .conteudo a {
   color: black;
-
 }
