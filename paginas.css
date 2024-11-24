@@ -56,16 +56,22 @@ a {
   flex-direction: column;
   align-items: flex-start;
 }
-.conteudo {
+.divisao {
   background-color: #fff;
   width: 98vw;
   margin: 0;
   margin-top: 3%;
-  border-top-left-radius: 35%;
-  border-top-right-radius: 35%;
+  border-top-left-radius: 75%;
+  border-top-right-radius: 75%;
   padding: 40px 20px;
   box-sizing: border-box;
   text-align: center;
+}
+.conteudo {
+    background-color: #fff;
+    width: 98vw;
+    box-sizing: border-box;
+    text-align: center;
 }
 .conteudo h2 {
   color: #0a001b;
@@ -85,4 +91,85 @@ a {
 .conteudo ul li a {
   color: black;
   font-size: 26px;
+}
+#paragrafo1 {
+    border-style: solid;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 4%;
+  color: #0a001b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: 3%;
+  margin-right: 50%;
+}
+.imagem0 {
+  position: absolute;
+  right: 18%;
+}
+#paragrafo2 {
+  color: #0a001b;
+  border-style: solid;
+  border-color: #f5f5f5;
+  background-color: #f5f5f5;
+  border-radius: 4%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-align: justify;
+  max-width: 800px;
+  margin-left: 50%;
+  margin-right: 3%;
+}
+.imagem1 {
+  position: absolute;
+  left: 15%;
+}
+#paragrafo3 {
+    border-style: solid;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 4%;
+  color: #0a001b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  text-align: justify;
+  max-width: 800px;
+  margin-right: 50%;
+  margin-left: 3%;
+}
+.imagem2 {
+    position: absolute;
+    right: 4%;
+}
+#paragrafo4 {
+    border-style: solid;
+    border-color: #f5f5f5;
+    background-color: #f5f5f5;
+    border-radius: 4%;
+  color: #0a001b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  max-width: 800px;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#link {
+  color: #78c802;
+  text-decoration: none;
+}
+#lIdeb {
+  color: #000;
+  text-decoration: none;
+  
+}
+#fonte {
+  margin-right: 0;
+}
+.imagemExp {
+  position: absolute;
+  right: 13%;
+  top: 85%;
 }

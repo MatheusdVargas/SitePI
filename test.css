@@ -102,15 +102,13 @@ a {
   font-weight: 800;
   text-align: justify;
   max-width: 800px;
-  margin-left: 6%;
-  line-height: 1.6;
-
+  margin-left: 3%;
+  margin-right: 50%;
 }
 .imagem0 {
-  border-radius: 3%;
   position: absolute;
-  right: 15%;
-
+  right: 18%;
+  width: 260px;
 }
 #paragrafo2 {
   color: #0a001b;
@@ -127,7 +125,8 @@ a {
 }
 .imagem1 {
   position: absolute;
-
+  left: 15%;
+  width: 260px;
 }
 #paragrafo3 {
     border-style: solid;
@@ -144,7 +143,8 @@ a {
 }
 .imagem2 {
     position: absolute;
-
+    right: 4%;
+    width: 560px;
 }
 #paragrafo4 {
     border-style: solid;
@@ -158,8 +158,4 @@ a {
     text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
-}
-.conteudo a {
-  color: black;
-
 }

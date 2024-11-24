@@ -1,5 +1,5 @@
-/* Eu tentei deixar todo o site responsivo pro pessoal do proximo ano conseguir acessar
-no celular, mas não deu certo */
+/* Criar 3 novas paginas | Colocar box nao sei oq | colocar imagens | colocar border 
+| colocar texto gradiente */
 /* import da fonte "Roboto"*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 body {
@@ -97,8 +97,18 @@ a {
   color: #0a001b;
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-
   max-width: 800px;
   margin: 20px auto; 
-  margin-bottom: 3%;
+  margin-bottom: 1%;
+}
+.rodape {
+  background-color: #ffff;
+  width: 98vw;
+  color: #0a001b;
+}
+.rodape p {
+  color: #0a001b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  margin: 20px auto; 
 }
