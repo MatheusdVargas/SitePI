@@ -1,0 +1,18 @@
+/* esse estilo só aparece na página objetivos e dados */
+#link {
+  color: #78c802;
+  text-decoration: none;
+}
+
+#lIdeb {
+  color: #000;
+  text-decoration: none;
+}
+#fonte {
+  margin-right: 0;
+  margin-left: 22%;
+}
+#fonteForm {
+  margin-right: 0;
+  margin-left: 12%;
+}

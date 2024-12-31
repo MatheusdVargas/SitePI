@@ -1,23 +1,22 @@
-/* Criar 3 novas paginas | Colocar box nao sei oq | colocar imagens | colocar border 
-| colocar texto gradiente */
-/* import da fonte "Roboto"*/
+/* Import da fonte "Roboto" */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
 body {
   background-color: #0a001b;
   color: #fff;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  overflow-x: hidden; /* Remove qualquer transbordamento horizontal */
 }
 
 h1 {
   font-size: 5em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 p {
@@ -33,37 +32,31 @@ a {
 }
 
 .container {
-  margin-bottom: 1%;
+  margin-bottom: 2%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
-
-.bemvindo {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  display: flex;
-  margin-top: 2%;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
 .navegacao ul {
   list-style: none;
-  position: absolute;
   left: 0;
   display: flex;
+  position: absolute;
 }
 
 .navegacao li {
   margin-right: 50px;
 }
 
-.imagem {
-  position: relative;
+.navegacao a {
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s;
 }
 
+.navegacao a:hover {
+  color: #ddd;
+}
 .perfil ul {
   list-style: none;
   position: absolute;
@@ -71,45 +64,44 @@ a {
   top: 0;
   display: flex;
 }
-
 .sobre {
   background-color: #fff;
-  width: 98vw;
-  margin: 0;
-  margin-top: 3%;
+  width: 100vw; 
+  margin: 0; 
+  margin-top: 3%; 
   border-top-left-radius: 75%;
   border-top-right-radius: 75%;
-  padding: 40px 20px;
-  box-sizing: border-box;
+  padding: 40px 20px; 
+  box-sizing: border-box; 
   text-align: center;
 }
 
 .sobre h2 {
   color: #0a001b;
-  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 36px;
-  margin-top: 0;
 }
 
 .sobre p {
   color: #0a001b;
-  font-family: "Roboto", sans-serif;
   font-weight: 800;
   max-width: 800px;
-  margin: 20px auto;
-  margin-bottom: 1%;
+  margin: 10px auto;
 }
 
 .rodape {
-  background-color: #ffff;
-  width: 98vw;
+  background-color: #fff;
+  width: 100%; 
   color: #0a001b;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  padding: 20px; 
+  box-sizing: border-box;
 }
 
 .rodape p {
-  color: #0a001b;
-  font-family: "Roboto", sans-serif;
+  margin: 2px 0;
   font-weight: 800;
-  margin: 20px auto;
 }

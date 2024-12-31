@@ -36,6 +36,7 @@ a {
 }
 .navegacao li {
   margin-right: 50px;
+  font-family: sans-serif;
 }
 .imagem {
   position: relative;
@@ -58,7 +59,7 @@ a {
 }
 .divisao {
   background-color: #fff;
-  width: 98vw;
+  width: 100%;
   margin: 0;
   margin-top: 3%;
   border-top-left-radius: 75%;
@@ -69,7 +70,7 @@ a {
 }
 .conteudo {
   background-color: #fff;
-  width: 98vw;
+  width: 100%;
   box-sizing: border-box;
   text-align: center;
 }

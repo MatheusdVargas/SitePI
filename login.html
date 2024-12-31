@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="login.css">
+  <title>PI - Log In</title>
+</head>
+
+<body>
+  <header>
+    <div class="imagem">
+      <img src="imagensIndex/logo.png" alt="Logo do Pré-IFRS">
+    </div>
+    <nav class="navegacao">
+      <ul>
+        <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="problemas.html">Problemas</a></li>
+                <li><a href="objetivo.html">Objetivos</a></li>
+                <li><a href="dados.html">Dados</a></li>
+                <li><a href="expectativa.html">Expectativa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="perfil">
+      <ul>
+        <li><a href="https://github.com/MatheusdVargas" target="_blank">
+            <img src="imagensIndex/github.png" alt="Link para o GitHub"></a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="titulo-pagina">
+    <h1>Cadastro e Login</h1>
+  </div>
+  <div class="formulario-conteiner">
+    <p class="titulo">Login</p>
+    <form class="formulario">
+      <div class="grupo-input">
+        <label for="nome-usuario">Nome</label>
+        <input type="text" name="nome-usuario" id="nome-usuario" placeholder="">
+      </div>
+      <div class="grupo-input">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="">
+        <div class="esqueceu-senha">
+          <a rel="noopener noreferrer" href="#">Esqueceu a senha?</a>
+        </div>
+      </div>
+      <button class="botao-entrar">Entrar</button>
+    </form>
+    <div class="mensagem-social">
+      <div class="linha"></div>
+    </div>
+    <p class="cadastro-mensagem">Não tem uma conta? Registre-se agora!</p>
+  </div>
+  <div class="cadastro-conteiner">
+    <p class="titulo">Cadastro</p>
+    <form class="formulario">
+      <div class="grupo-input">
+        <label for="nome-completo">Nome Completo</label>
+        <input type="text" name="nome-completo" id="nome-completo" placeholder="">
+      </div>
+      <div class="grupo-input">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" placeholder="">
+        <label for="confirma-senha">Confirmar Senha</label>
+        <input type="password" name="confirma-senha" id="confirma-senha" placeholder="">
+      </div>
+      <div class="pais">
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+          <option value="AU">Austrália</option>
+          <option value="BR">Brasil</option>
+          <option value="CD">Canadá</option>
+          <option value="US">Estados Unidos</option>
+        </select>
+      </div>
+      <div class="genero">
+        <legend>Gênero</legend>
+        <!-- Opção para feminino -->
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="F">
+        <!-- Opção para masculino -->
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="M">
+        <!-- Opção para outro gênero -->
+        <label for="outro">Outro</label>
+        <input type="radio" name="genero" id="outro" value="O">
+      </div>
+      <button class="botao-registrar">Registrar</button>
+    </form>
+  </div>
+</body>
+
+</html>

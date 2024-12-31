@@ -5,58 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PI - Dados</title>
     <link rel="stylesheet" href="paginas.css">
+    <link rel="stylesheet" href="fontes.css">
     <link rel="shortcut icon" href="imagensIndex/favicon.png" type="image/x-icon">
 </head>
-    <body>
+<body>
+    <header>
         <div class="imagem">
-            <img src="imagensIndex/logo.png" alt="">
+            <img src="imagensIndex/logo.png" alt="Logo do Pré-IFRS">
         </div>
         <nav class="navegacao">
-            <table>
-                <ul>
-                    <li><a href="index.html">Página Inicial</a></li>
-                    <li><a href="problemas.html">Problemas</a></li>
-                    <li><a href="objetivo.html">Objetivos</a></li>
-                    <li><a href="expectativa.html">Expectativa</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </table>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="problemas.html">Problemas</a></li>
+                <li><a href="objetivo.html">Objetivos</a></li>
+                <li><a href="expectativa.html">Expectativa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
         </nav>
         <div class="perfil">
-            <table>
-                <ul>
-                    <li><a href="https://github.com/MatheusdVargas" target="_blank"><img src="imagensIndex/github.png" alt="" ></a></li>
-                    <li></li>
-                </ul>
-            </table>
+            <ul>
+                <li>
+                    <a href="https://github.com/MatheusdVargas" target="_blank">
+                        <img src="imagensIndex/github.png" alt="Link para o GitHub">
+                    </a>
+                </li>
+            </ul>
         </div>
+    </header>
 
-            <div class="titulo">
-                <h1>Dados</h1>
-            </div>
-        </div>
+    <main>
+        <section class="titulo">
+            <h1>Dados</h1>
+        </section>
         <div class="divisao"></div>
-            <div class="conteudo">
-                <img class="imagem0" src="imagens/ideb.png" alt="" width="350px">
+        <section class="conteudo">
+            <article>
+                <img class="imagem0" src="imagens/ideb.png" alt="Gráfico de Ideb" width="350px">
                 <p id="paragrafo1">
-                    Analisando notas do Ideb (Índice de Desenvolvimento da Educação Básica) podemos notar que o ensino das escolas estaduais é muito precário comparado ao ensino das escolas federais, como mostra os dados ao lado.
+                    Analisando notas do Ideb (Índice de Desenvolvimento da Educação Básica), podemos notar que o ensino das escolas estaduais é muito precário comparado ao ensino das escolas federais, como mostram os dados ao lado.
                 </p>
-                <p id="fonte">&lt;Fonte&gt; <a id="lIdeb" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados" target="_blank">gov.br/ideb</a></p>
+                <p id="fonte">&lt;Fonte&gt; 
+                    <a id="lIdeb" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados" target="_blank">gov.br/ideb</a>
+                </p>
                 <hr>
-                <img class="imagem1" src="imagens/Grafico1.png" alt="" width="350px">
-                <p id="paragrafo2">
-                    Além disso, desenvolvemos e aplicamos um formulário com o objetivo de coletar dados relevantes tanto de estudantes que já utilizaram o Pré-IFRS quanto daqueles que não tiveram contato com a ferramenta. Os resultados revelaram que quase 50% dos respondentes afirmaram não conhecer o Pré-IFRS, evidenciando um grande déficit em sua divulgação.
+            </article>
 
+            <article>
+                <img class="imagem1" src="imagens/Grafico1.png" alt="Gráfico sobre conhecimento do Pré-IFRS" width="350px">
+                <p id="paragrafo2">
+                    Além disso, desenvolvemos e aplicamos um formulário com o objetivo de coletar dados relevantes tanto de estudantes que já utilizaram o Pré-IFRS quanto daqueles que não tiveram contato com a ferramenta. 
+                    Os resultados revelaram que quase 50% dos respondentes afirmaram não conhecer o Pré-IFRS, evidenciando um grande déficit em sua divulgação. 
+                    
                     Esse dado reforça e dá ainda mais ênfase à problemática anteriormente levantada: a falta de visibilidade e de estratégias eficazes para promover o Pré-IFRS entre os alunos.
-                </p> 
-                <br><hr>
-                <img class="imagem2" src="imagens/Grafico2.png" alt="" width="560px">
+                </p>
+                <br>
+                <hr>
+            </article>
+
+            <article>
+                <img class="imagem2" src="imagens/Grafico2.png" alt="Gráfico sobre motivos para não usar o Pré-IFRS" width="560px">
                 <p id="paragrafo3">
                     Entre as pessoas que afirmaram conhecer o Pré-IFRS, mas optaram por não utilizá-lo, 10 relataram ter escolhido outros métodos de estudo. Esse dado reflete não apenas a falta de adesão à ferramenta, mas também indica que os estudantes estão buscando alternativas que consideram mais eficazes ou adequadas às suas necessidades de aprendizado.
-
+                    
                     Essa escolha por outros recursos pode estar relacionada a fatores como a percepção de limitações no Pré-IFRS, a preferência por métodos mais interativos ou personalizados, ou mesmo pela falta de alinhamento da plataforma com os estilos de estudo desses alunos.
                 </p>
-                <p id="fonte">&lt;Fonte&gt; Formulário aplicado com alunos do campus.</p>        
-            </div>
-    </body>
+                <p id="fonteForm">&lt;Fonte&gt; Formulário aplicado com alunos do campus.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p><sup>&copy;</sup> 2024 Matheus de Vargas</p>
+    </footer>
+</body>
 </html>
