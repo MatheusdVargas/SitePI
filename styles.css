@@ -10,11 +10,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden; /* Remove qualquer transbordamento horizontal */
+  overflow-x: hidden; /*Esse comando nao deixa o usuário rolar na horizontal*/
 }
 
 h1 {
   font-size: 5em;
+  margin-top: 8%;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -49,9 +50,7 @@ a {
 }
 
 .navegacao a {
-  font-weight: bold;
   color: #fff;
-  transition: color 0.3s;
 }
 
 .navegacao a:hover {

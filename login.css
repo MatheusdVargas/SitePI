@@ -1,4 +1,6 @@
+/* Import da fonte */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+/* Cabeçalho fixo */
 body {
   background-color: #0a001b;
   color: #fff;
@@ -7,7 +9,6 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .navegacao ul {
@@ -23,15 +24,9 @@ body {
 }
 
 .navegacao a {
-  font-weight: bold;
   color: #fff;
   transition: color 0.3s;
 }
-
-.navegacao a:hover {
-  color: #ddd;
-}
-
 a {
   color: white;
   text-decoration: none;
@@ -44,6 +39,7 @@ a {
   top: 0;
   display: flex;
 }
+/* Formulário */
 .formulario-conteiner {
   position: absolute;
   margin: 319px 50px;
@@ -142,7 +138,6 @@ a {
   color: rgba(243, 244, 246, 1);
 }
 .titulo-pagina {
-
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;

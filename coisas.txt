@@ -1,4 +1,4 @@
 | Criar 3 novas paginas |
 | colocar texto gradiente |
 | Fazer a pagina de login |
-| Fazer a pagina de referencias
+| Fazer a pagina de referencias |
