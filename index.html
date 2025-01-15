@@ -1,60 +1,74 @@
-<!-- Alterações:
- algumas divs foram tiradas para deixar o html mais semantico;
- mudanças no css;
- Adicionado duas novas páginas; -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador I</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imagensIndex/star.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Integrador I</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    rel="shortcut icon"
+    href="imagensIndex/star.png"
+    type="image/x-icon"
+  />
 </head>
 <body>
     <header>
         <div class="imagem">
-            <img src="imagensIndex/logo.png" alt="Logo do Pré-IFRS">
+          <img src="imagensIndex/logo.png" alt="Logo do Pré-IFRS" />
         </div>
         <nav class="navegacao">
-            <ul>
-                <!-- As páginas login e cadastro só podem ser acessadas pelo index -->
-                <li><a href="problemas.html">Problemas</a></li>
-                <li><a href="objetivo.html">Objetivos</a></li>
-                <li><a href="dados.html">Dados</a></li>
-                <li><a href="expectativa.html">Expectativa</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="referencias.html">Referências</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
+          <ul>
+            <!-- As páginas login e cadastro só podem ser acessadas pelo index -->
+            <li><a href="problemas.html">Problemas</a></li>
+            <li><a href="objetivo.html">Objetivos</a></li>
+            <li><a href="dados.html">Dados</a></li>
+            <li><a href="expectativa.html">Expectativa</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="referencias.html">Referências</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
         </nav>
         <div class="perfil">
-            <ul>
-                <li><a href="https://github.com/MatheusdVargas" target="_blank">
-                <img src="imagensIndex/github.png" alt="Link para o GitHub"></a></li>
-            </ul>
+          <ul>
+            <li>
+              <a href="https://github.com/MatheusdVargas" target="_blank">
+                <img src="imagensIndex/github.png" alt="Link para o GitHub"
+              /></a>
+            </li>
+          </ul>
         </div>
-    </header>
-    <main>
+      </header>
+      <main>
         <section class="bemvindo">
-            <h1>Bem-vindo</h1>
+          <h1>Bem-vindo</h1>
         </section>
         <section class="container">
-            <p>
-                Este site foi desenvolvido com o intuito de divulgar e apresentar nosso projeto integrador sobre a remodelação e gamificação do Pré-IFRS. Além de servir como forma de avaliação, o site também tem como objetivo proporcionar o detalhamento do progresso realizado ao longo do projeto.
-            </p>
+          <p>
+            Este site foi desenvolvido com o intuito de divulgar e apresentar
+            nosso projeto integrador sobre a remodelação e gamificação do
+            Pré-IFRS. Além de servir como forma de avaliação, o site também tem
+            como objetivo proporcionar o detalhamento do progresso realizado ao
+            longo do projeto.
+          </p>
         </section>
         <section class="sobre">
-            <h2>Sobre</h2>
-            <p>
-                O Pré-IFRS é uma ferramenta de apoio para os estudantes na preparação para o processo seletivo da instituição. A ferramenta proporciona simulados e questões de provas anteriores, além de uma checklist de conteúdos estudados para que o aluno possa se preparar em todas as matérias.
-                Nosso projeto integrador tem como objetivo a remodelação e gamificação do Pré-IFRS, adaptado para o contexto do nosso campus.
-            </p>
+          <h2>Sobre</h2>
+          <p>
+            O Pré-IFRS é uma ferramenta de apoio para os estudantes na preparação
+            para o processo seletivo da instituição. A ferramenta proporciona
+            simulados e questões de provas anteriores, além de uma checklist de
+            conteúdos estudados para que o aluno possa se preparar em todas as
+            matérias. Nosso projeto integrador tem como objetivo a remodelação e
+            gamificação do Pré-IFRS, adaptado para o contexto do nosso campus.
+          </p>
         </section>
-    </main>
-    <footer class="rodape">
+      </main>
+      <footer class="rodape">
         <p>Matheus de Vargas | INFO 1</p>
         <p>Copyright <sup>&copy;</sup> 2024</p>
-    </footer>
+      </footer>
 </body>
 </html>
